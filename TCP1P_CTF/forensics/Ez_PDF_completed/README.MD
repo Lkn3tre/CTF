@@ -1,5 +1,5 @@
 # Write-up :Ez_PDF
-* *1. Use ExifTool ,notice a base64 chunk. When decoded, you will get this message: `In this question, the flag has been divided into 3 parts. You have found the first part of the flag!! TCP1P{D01n9_F023n51C5`*
+* *1. Use ExifTool ,notice a base64 chunk. When decoded, you will get this message: **In this question, the flag has been divided into 3 parts. You have found the first part of the flag!! TCP1P{D01n9_F023n51C5***
 
 * *2. Extract all the images from the PDF. One of them contains the second part: **_ON_pdf_f1L35_15_345y***
 
