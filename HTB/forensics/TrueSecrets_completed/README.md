@@ -1,6 +1,6 @@
 # Write-up :TrueSecrets
 * *1. use volatility to scan all file in the memory dump (afer identifying the profile ofc)  and filter for zip files:*
-```bash 
+```shell 
 $ python vol.py filescan -f TrueSecrets.raw  --profile=Win7SP1x86_23418 | grep -i ".zip"
 ```
 * *2. notice an interesting file "backup_developement.zip"*
