@@ -1,13 +1,13 @@
 # Write-up :Diagnotic
 * *1.Given a host which we can use to retrieve the doc file .download the doc with wget :*
-```bash
+```sh
 $ wget IP/layoffs.doc
 ```
 * *2.use `oleid` on the document found an External Relationships* 
 * *3.use `oleobj` for details* 
 * *4.Found relationship 'oleObject' with external link http://diagnostic.htb:32218/223_index_style_fancy.html!* 
 * *5.download the html file with wget :*
-```console
+```sh
 $ wget IP/223_index_style_fancy.html!
 ```
 * *6. find two base64 chunk in html inside a script tag the first one contain a powershell script :* 
