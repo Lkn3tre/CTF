@@ -8,6 +8,6 @@ fls challenge.ntfs
 ```sh
 for i in {64..163};do icat challenge.ntfs $i-128-4;done > flag.png
 ```
-* *4. It's a QR code. Decode it to get the flag: `TCP1P{hidden_flag_in_the_extended_attributes_fea73c5920aa8f1c}`*
+* *4. It's a QR code. Decode it to get the flag: **TCP1P{hidden_flag_in_the_extended_attributes_fea73c5920aa8f1c}***
 
 
