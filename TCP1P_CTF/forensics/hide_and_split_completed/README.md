@@ -4,7 +4,7 @@
 fls challenge.ntfs
 ```
 * *2. Notice that the file "flag0" starts with "89504e47," which is a PNG header.*
-* *3. Collect all files with names starting with**flag0**to**flag99**into one file,**flag.png**using the following command:* 
+* *3. Collect all files with names starting with **flag0** to **flag99** into one file, **flag.png** using the following command:* 
 ```sh
 for i in {64..163};do icat challenge.ntfs $i-128-4;done > flag.png
 ```
