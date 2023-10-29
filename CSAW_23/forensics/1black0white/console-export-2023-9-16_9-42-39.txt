@@ -1,0 +1,454 @@
+Password fields present on an insecure (http://) page. This is a security risk that allows user login credentials to be stolen. login
+Object { email: "ssss", password: "ssss" }
+index-e731f01e.js:164:3774
+Object { email: "sss", password: "sss" }
+index-e731f01e.js:164:3774
+Object { email: "sss", password: "sss" }
+index-e731f01e.js:164:3774
+Password fields present on an insecure (http://) page. This is a security risk that allows user login credentials to be stolen. register
+Object { email: "zzz", password: "zzz" }
+index-e731f01e.js:164:6586
+Object { msg: "User registered successfully!" }
+index-e731f01e.js:164:6844
+Password fields present on an insecure (http://) page. This is a security risk that allows user login credentials to be stolen. login
+Object { email: "zzz", password: "zzz" }
+index-e731f01e.js:164:3774
+Some cookies are misusing the recommended “SameSite“ attribute 2
+Object { login: true }
+index-e731f01e.js:164:4160
+Cookie “session” has been rejected because there is already an HTTP-Only cookie but script tried to store a new one. index-e731f01e.js:164:3988
+Object { msg: {…} }
+index-e731f01e.js:178:25932
+false index-e731f01e.js:178:25972
+temp0
+<form class="MuiBox-root css-164r41r" novalidate="">
+​
+0: <input id="membership" class="MuiInputBase-input MuiOu…Input-input css-1x5jdmq" aria-invalid="false" name="membership" required="" type="text" value="">
+​
+1: <fieldset class="MuiOutlinedInput-notchedOutline css-igs3ac" aria-hidden="true">
+​
+2: <button class="MuiButtonBase-root MuiBu…on-fullWidth css-nxzcop" tabindex="0" type="submit">
+​
+"__reactFiber$05raae7vra66": Object { tag: 5, elementType: "form", type: "form", … }
+​
+"__reactProps$05raae7vra66": Object { className: "MuiBox-root css-164r41r", onSubmit: o(i), noValidate: true, … }
+​
+acceptCharset: ""
+​
+accessKey: ""
+​
+accessKeyLabel: ""
+​
+action: "http://web.csaw.io:14180/web/membership"
+​
+assignedSlot: null
+​
+attributes: NamedNodeMap [ class="MuiBox-root css-164r41r", novalidate="" ]
+​
+autocomplete: "on"
+​
+baseURI: "http://web.csaw.io:14180/web/membership"
+​
+childElementCount: 3
+​
+childNodes: NodeList(3) [ div.MuiFormControl-root.MuiFormControl-marginNormal.MuiFormControl-fullWidth.MuiTextField-root.css-1u0h3mu, p.MuiTypography-root.MuiTypography-body2.MuiTypography-alignCenter.css-d0ffpd, button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-fullWidth.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-fullWidth.css-nxzcop ]
+​
+children: HTMLCollection { 0: div.MuiFormControl-root.MuiFormControl-marginNormal.MuiFormControl-fullWidth.MuiTextField-root.css-1u0h3mu, 1: p.MuiTypography-root.MuiTypography-body2.MuiTypography-alignCenter.css-d0ffpd, length: 3, … }
+​
+classList: DOMTokenList [ "MuiBox-root", "css-164r41r" ]
+​
+className: "MuiBox-root css-164r41r"
+​
+clientHeight: 177
+​
+clientLeft: 0
+​
+clientTop: 0
+​
+clientWidth: 226
+​
+contentEditable: "inherit"
+​
+dataset: DOMStringMap(0)
+​
+dir: ""
+​
+draggable: false
+​
+elements: HTMLFormControlsCollection { 0: input#membership.MuiInputBase-input.MuiOutlinedInput-input.css-1x5jdmq, 1: fieldset.MuiOutlinedInput-notchedOutline.css-igs3ac, length: 3, … }
+​
+encoding: "application/x-www-form-urlencoded"
+​
+enctype: "application/x-www-form-urlencoded"
+​
+firstChild: <div class="MuiFormControl-root MuiF…tField-root css-1u0h3mu">
+​
+firstElementChild: <div class="MuiFormControl-root MuiF…tField-root css-1u0h3mu">
+​
+hidden: false
+​
+id: ""
+​
+innerHTML: "<div class=\"MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-1u0h3mu\"><label class=\"MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1ald77x\" data-shrink=\"true\" for=\"membership\" id=\"membership-label\">Membership code<span aria-hidden=\"true\" class=\"MuiFormLabel-asterisk MuiInputLabel-asterisk css-sp68t1\"> *</span></label><div class=\"MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-1bp1ao6\"><input aria-invalid=\"false\" id=\"membership\" name=\"membership\" required=\"\" type=\"text\" class=\"MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq\" value=\"\"><fieldset aria-hidden=\"true\" class=\"MuiOutlinedInput-notchedOutline css-igs3ac\"><legend class=\"css-14lo706\"><span>Membership code *</span></legend></fieldset></div></div><p class=\"MuiTypography-root MuiTypography-body2 MuiTypography-alignCenter css-d0ffpd\">Incorrect code!</p><button class=\"MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-nxzcop\" tabindex=\"0\" type=\"submit\">Submit<span class=\"MuiTouchRipple-root css-w0pj6f\"></span></button>"
+​
+innerText: "Membership code *\nMembership code *\n\nIncorrect code!\n\nSUBMIT"
+​
+isConnected: true
+​
+isContentEditable: false
+​
+lang: ""
+​
+lastChild: <button class="MuiButtonBase-root MuiBu…on-fullWidth css-nxzcop" tabindex="0" type="submit">
+​
+lastElementChild: <button class="MuiButtonBase-root MuiBu…on-fullWidth css-nxzcop" tabindex="0" type="submit">
+​
+length: 3
+​
+localName: "form"
+​
+method: "get"
+​
+name: ""
+​
+namespaceURI: "http://www.w3.org/1999/xhtml"
+​
+nextElementSibling: null
+​
+nextSibling: null
+​
+noValidate: true
+​
+nodeName: "FORM"
+​
+nodeType: 1
+​
+nodeValue: null
+​
+nonce: ""
+​
+offsetHeight: 177
+​
+offsetLeft: 561
+​
+offsetParent: <body>
+​
+offsetTop: 168
+​
+offsetWidth: 226
+​
+onabort: null
+​
+onanimationcancel: null
+​
+onanimationend: null
+​
+onanimationiteration: null
+​
+onanimationstart: null
+​
+onauxclick: null
+​
+onbeforeinput: null
+​
+onblur: null
+​
+oncanplay: null
+​
+oncanplaythrough: null
+​
+onchange: null
+​
+onclick: null
+​
+onclose: null
+​
+oncontextmenu: null
+​
+oncopy: null
+​
+oncuechange: null
+​
+oncut: null
+​
+ondblclick: null
+​
+ondrag: null
+​
+ondragend: null
+​
+ondragenter: null
+​
+ondragexit: null
+​
+ondragleave: null
+​
+ondragover: null
+​
+ondragstart: null
+​
+ondrop: null
+​
+ondurationchange: null
+​
+onemptied: null
+​
+onended: null
+​
+onerror: null
+​
+onfocus: null
+​
+onformdata: null
+​
+onfullscreenchange: null
+​
+onfullscreenerror: null
+​
+ongotpointercapture: null
+​
+oninput: null
+​
+oninvalid: null
+​
+onkeydown: null
+​
+onkeypress: null
+​
+onkeyup: null
+​
+onload: null
+​
+onloadeddata: null
+​
+onloadedmetadata: null
+​
+onloadend: null
+​
+onloadstart: null
+​
+onlostpointercapture: null
+​
+onmousedown: null
+​
+onmouseenter: null
+​
+onmouseleave: null
+​
+onmousemove: null
+​
+onmouseout: null
+​
+onmouseover: null
+​
+onmouseup: null
+​
+onmozfullscreenchange: null
+​
+onmozfullscreenerror: null
+​
+onpaste: null
+​
+onpause: null
+​
+onplay: null
+​
+onplaying: null
+​
+onpointercancel: null
+​
+onpointerdown: null
+​
+onpointerenter: null
+​
+onpointerleave: null
+​
+onpointermove: null
+​
+onpointerout: null
+​
+onpointerover: null
+​
+onpointerup: null
+​
+onprogress: null
+​
+onratechange: null
+​
+onreset: null
+​
+onresize: null
+​
+onscroll: null
+​
+onseeked: null
+​
+onseeking: null
+​
+onselect: null
+​
+onselectstart: null
+​
+onstalled: null
+​
+onsubmit: null
+​
+onsuspend: null
+​
+ontimeupdate: null
+​
+ontoggle: null
+​
+ontransitioncancel: null
+​
+ontransitionend: null
+​
+ontransitionrun: null
+​
+ontransitionstart: null
+​
+onvolumechange: null
+​
+onwaiting: null
+​
+onwebkitanimationend: null
+​
+onwebkitanimationiteration: null
+​
+onwebkitanimationstart: null
+​
+onwebkittransitionend: null
+​
+onwheel: null
+​
+outerHTML: "<form class=\"MuiBox-root css-164r41r\" novalidate=\"\"><div class=\"MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-1u0h3mu\"><label class=\"MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1ald77x\" data-shrink=\"true\" for=\"membership\" id=\"membership-label\">Membership code<span aria-hidden=\"true\" class=\"MuiFormLabel-asterisk MuiInputLabel-asterisk css-sp68t1\"> *</span></label><div class=\"MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-1bp1ao6\"><input aria-invalid=\"false\" id=\"membership\" name=\"membership\" required=\"\" type=\"text\" class=\"MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq\" value=\"\"><fieldset aria-hidden=\"true\" class=\"MuiOutlinedInput-notchedOutline css-igs3ac\"><legend class=\"css-14lo706\"><span>Membership code *</span></legend></fieldset></div></div><p class=\"MuiTypography-root MuiTypography-body2 MuiTypography-alignCenter css-d0ffpd\">Incorrect code!</p><button class=\"MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-nxzcop\" tabindex=\"0\" type=\"submit\">Submit<span class=\"MuiTouchRipple-root css-w0pj6f\"></span></button></form>"
+​
+ownerDocument: HTMLDocument http://web.csaw.io:14180/web/membership
+​
+parentElement: <div class="MuiBox-root css-binzgt">
+​
+parentNode: <div class="MuiBox-root css-binzgt">
+​
+part: DOMTokenList []
+​
+prefix: null
+​
+previousElementSibling: <h1 class="MuiTypography-root MuiTypography-h5 css-zq6grw">
+​
+previousSibling: <h1 class="MuiTypography-root MuiTypography-h5 css-zq6grw">
+​
+scrollHeight: 177
+​
+scrollLeft: 0
+​
+scrollLeftMax: 0
+​
+scrollTop: 0
+​
+scrollTopMax: 0
+​
+scrollWidth: 226
+​
+shadowRoot: null
+​
+slot: ""
+​
+spellcheck: false
+​
+style: CSS2Properties(0)
+​
+tabIndex: -1
+​
+tagName: "FORM"
+​
+target: ""
+​
+textContent: "Membership code *Membership code *Incorrect code!Submit"
+​
+title: ""
+​
+<prototype>: HTMLFormElementPrototype { submit: submit(), requestSubmit: requestSubmit(), reset: reset(), … }
+​​
+acceptCharset: 
+​​
+action: 
+​​
+autocomplete: 
+​​
+checkValidity: function checkValidity()
+​​
+constructor: function ()
+​​
+elements: 
+​​
+encoding: 
+​​
+enctype: 
+​​
+length: 
+​​
+method: 
+​​
+name: 
+​​
+noValidate: 
+​​
+reportValidity: function reportValidity()
+​​
+requestSubmit: function requestSubmit()
+​​
+reset: function reset()
+​​
+submit: function submit()
+​​
+target: 
+​​
+Symbol(Symbol.iterator): function values()
+​​
+Symbol(Symbol.toStringTag): "HTMLFormElement"
+​​
+<get acceptCharset()>: function acceptCharset()
+​​
+<set acceptCharset()>: function acceptCharset()
+​​
+<get action()>: function action()
+​​
+<set action()>: function action()
+​​
+<get autocomplete()>: function autocomplete()
+​​
+<set autocomplete()>: function autocomplete()
+​​
+<get elements()>: function elements()
+​​
+<get encoding()>: function encoding()
+​​
+<set encoding()>: function encoding()
+​​
+<get enctype()>: function enctype()
+​​
+<set enctype()>: function enctype()
+​​
+<get length()>: function length()
+​​
+<get method()>: function method()
+​​
+<set method()>: function method()
+​​
+<get name()>: function name()
+​​
+<set name()>: function name()
+​​
+<get noValidate()>: function noValidate()
+​​
+<set noValidate()>: function noValidate()
+​​
+<get target()>: function target()
+​​
+<set target()>: function target()
+​​
+<prototype>: HTMLElementPrototype { click: click(), focus: focus(), blur: blur(), … }
+
+onmozfullscreenchange is deprecated. membership
+onmozfullscreenerror is deprecated. membership
+Ignoring get or set of property that has [LenientThis] because the “this” object is incorrect. membership

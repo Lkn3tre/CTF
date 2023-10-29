@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
+    <title>Survey</title>
+</head>
+<body class="bg-black text-white">
+    <nav class="flex items-center justify-between flex-wrap bg-black p-6">
+        <div class="flex items-center flex-shrink-0 mr-6">
+            <img src="DALLE.png" class="h-10 w-10 mr-2">
+            <span class="font-semibold text-xl tracking-tight">Survey</span>
+        </div>
+        <div>
+            <button class="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded" onclick="window.location.href='/survey'">
+                Take Survey
+            </button>
+        </div>
+    </nav>
+    <div class="flex flex-col items-center justify-center h-screen">
+        <h1 class="text-5xl font-bold mb-8">Welcome to our Survey</h1>
+        <p class="text-xl mb-8">We want to hear from you! Please take a few minutes to complete our survey and give us some insights.</p>
+        <button class="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded" onclick="alert('Unfortunatlly, this survey is not available at the moment.')">
+            Take Survey
+        </button>
+    </div>
+</body>
+</html>

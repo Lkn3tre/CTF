@@ -1,0 +1,52 @@
+version: '3'
+
+services:
+
+  varnish:
+    image: varnish:latest
+    container_name: shop-varnish
+    restart: always
+    volumes:
+      - ./config/varnish/ChopChop.vcl:/etc/varnish/default.vcl
+    ports:
+      - "80:80"
+    depends_on:
+      - frontend
+      - voucher
+
+  voucher:
+    container_name: shop-voucher
+    restart: always
+    build:
+      context: ./voucher
+      dockerfile: Dockerfile
+    depends_on:
+      - backend
+
+  frontend:
+    container_name: shop-frontend
+    restart: always
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    depends_on:
+      - backend
+
+  backend:
+    container_name: shop-backend
+    restart: always
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    depends_on:
+      - postgres
+    ports:
+      - "3000:3000"
+
+  postgres:
+    image: postgres:13.5
+    container_name: prisma_db
+    restart: always
+    environment:
+      POSTGRES_USER: prisma
+      POSTGRES_PASSWORD: prisma

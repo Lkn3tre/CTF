@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<style>
+
+.input-height {
+    height: 3rem; 
+  }
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1); 
+}
+
+
+</style>
+<body class="bg-black text-white font-sans h-screen ">
+  <nav class="flex items-center justify-between flex-wrap bg-black p-6">
+    <div class="flex items-center flex-shrink-0 mr-6">
+        <img src="DALLE.png" class="h-10 w-10 mr-2">
+        <span class="font-semibold text-xl tracking-tight">Survey</span>
+    </div>
+    <div>
+        <button class="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded">
+            Take Survey
+        </button>
+    </div>
+</nav>
+    <div class="border rounded-lg border-pink-500 shadow-lg w-full md:w-1/2 md:max-w-full mx-auto gradient bg-black">
+        <div class="p-1 mt-4 flex flex-row justify-center items-center">
+            <img src="DALLE.png" class="h-20 w-20 mr-2">
+            <h1 class="text-5xl font-light mb-2">Survey</h1>
+        </div>
+        <div class="p-6  sm:rounded-md bg-black">
+          <form method="POST" action="/📝" name="surv3y">
+            <label class="block mb-6">
+              <span class="text-gray-300">First name 🧑</span>
+              <input
+                name="firstname"
+                type="text"
+                class="
+                input-height
+                  block
+                  w-full
+                  mt-1
+                  p-2
+                  border
+                  rounded-md
+                  shadow-sm
+                  focus:border-blue-300
+                  focus:ring
+                  focus:ring-blue-200
+                  focus:ring-opacity-50
+                  bg-transparent
+                  placeholder-gray-600
+                  text-gray-300
+                "
+                placeholder="smya"
+                required
+              />
+            </label>
+            <label class="block mb-6">
+              <span class="text-gray-300">Last name</span>
+              <input
+                name="lastname"
+                type="text"
+                class="
+                input-height
+                  block
+                  w-full
+                  mt-1
+                  p-2
+                  border
+                  rounded-md
+                  shadow-sm
+                  focus:border-blue-300
+                  focus:ring
+                  focus:ring-blue-200
+                  focus:ring-opacity-50
+                  bg-transparent
+                  placeholder-gray-600
+                  text-gray-300
+                "
+                placeholder="knya"
+                required
+              />
+            </label>
+            <label class="block mb-6">
+              <span class="text-gray-300">Home address 📍</span>
+              <!-- Definetly not trying to dox you-->
+              <input
+                name="address"
+                type="text"
+                class="
+                input-height
+                block
+                w-full
+                mt-1
+                p-2
+                border
+                rounded-md
+                shadow-sm
+                focus:border-blue-300
+                focus:ring
+                focus:ring-blue-200
+                focus:ring-opacity-50
+                bg-transparent
+                placeholder-gray-600
+                text-gray-300
+                "
+                placeholder="1337"
+                required
+              />
+            </label>
+            <label class="block mb-6">
+              <span class="text-gray-300">City 📍</span>
+              <input
+                name="city"
+                type="text"
+                class="
+                input-height
+                block
+                w-full
+                mt-1
+                p-2
+                border
+                rounded-md
+                shadow-sm
+                focus:border-blue-300
+                focus:ring
+                focus:ring-blue-200
+                focus:ring-opacity-50
+                bg-transparent
+                placeholder-gray-600
+                text-gray-300
+                "
+                placeholder="city"
+                required
+              />
+            </label>
+            <label class="block mb-6">
+              <span class="text-gray-300">Date of birth:</span>
+              <input
+                name="birthday"
+                type="date"
+                class="
+                  block
+                  w-full
+                  mt-1
+                  border-gray-600
+                  rounded-md
+                  shadow-sm
+                  focus:border-pink-300
+                  focus:ring
+                  focus:ring-pink-200
+                  focus:ring-opacity-50
+                  bg-transparent
+                  placeholder-gray-600
+                  text-gray-300
+                "
+                pattern="\d{4}-\d{2}-\d{2}"
+                required
+              />
+            </label>
+          
+            <div class="mb-6">
+              <div class="mt-2">
+                <span class="text-gray-300">Are you in debt?</span>
+                <div>
+                  <label class="inline-flex items-center">
+                    <input
+                      name="debt"
+                      type="radio"
+                      class="
+                        text-pink-600
+                        border-gray-600
+                        rounded-full
+                        shadow-sm
+                        focus:border-pink-300
+                        focus:ring
+                        focus:ring-offset-0
+                        focus:ring-pink-200
+                        focus:ring-opacity-50
+                        bg-transparent
+                        placeholder-gray-600
+                        text-gray-300
+                      "
+                      checked
+                    />
+                    <span class="ml-2 text-gray-300">Yes 😔</span>
+                  </label>
+                </div>
+                <div>
+                  <label class="inline-flex items-center">
+                    <input
+                      name="debt"
+                      type="radio"
+                      class="
+                        text-pink-600
+                        border-pink-600
+                        rounded-full
+                        shadow-sm
+                        focus:border-pink-300
+                        focus:ring
+                        focus:ring-offset-0
+                        focus:ring-pink-200
+                        focus:ring-opacity-50
+                        bg-transparent
+                        text-gray-300
+                      "
+                    />
+                    <span class="ml-2 text-gray-300">No 😭</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <label class="block mb-6">
+                <span class="text-gray-300"
+                  >How much money you got right now?</span
+                >
+                <input
+                name="balance"
+                type="text"
+                class="
+                  input-height
+                  block
+                  p-2
+                  w-full
+                  mt-1
+                  border-gray-600
+                  rounded-md
+                  shadow-sm
+                  focus:border-pink-300
+                  focus:ring
+                  focus:ring-pink-200
+                  focus:ring-opacity-50
+                  bg-transparent
+                  placeholder-gray-600
+                  text-gray-300
+                "
+                placeholder="0 DH"
+                required
+              />
+              </label>
+              
+              
+            <div class="mb-6">
+              <button
+                type="submit"
+                class="
+                  h-10
+                  px-5
+                  text-pink-100
+                  bg-pink-700
+                  rounded-lg
+                  transition-colors
+                  duration-150
+                  focus:shadow-outline
+                  hover:bg-pink-500
+                "
+              >
+                Send Answers 😏
+              </button>
+            </div>
+            </div>
+          </form>
+        </div>
+      </div>
+</body>
+<script>
+  document.surv3y.addEventListener("submit", function (e) {
+    e.preventDefault();
+    fetch("/📝", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        firstname: document.surv3y.firstname.value,
+        lastname: document.surv3y.lastname.value,
+        address: document.surv3y.address.value,
+        date: document.surv3y.birthday.value,
+        debt: document.surv3y.debt.value,
+        balance: document.surv3y.balance.value,
+        city: document.surv3y.city.value,
+      }),
+    })
+      .then((res) => res.text())
+      .then((html) => {
+        document.body.innerHTML = html;
+    }).catch((err) => {
+      console.error(err);
+    });
+});
+
+</script>
+</html>
+  

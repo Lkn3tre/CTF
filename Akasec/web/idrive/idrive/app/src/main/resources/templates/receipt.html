@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
+    <title>Survey Receipt</title>
+</head>
+<body class="bg-black text-white">
+    <div class="w-full max-w-xl mx-auto mt-10">
+        <div class="bg-black border rounded-lg p-5 border-pink-600  shadow-lg">
+            <div class="flex justify-between items-center mb-6">
+                <img src="glowie.png" alt="nooooooo" class="w-20 h-auto">
+                <h1 class="text-2xl font-bold">Survey Receipt</h1>
+            </div>
+            <div class="mb-4">
+                <label class="text-sm">Full Name:</label>
+                <p class="text-lg font-semibold" th:text="${User.firstname + ' 😔 ' + User.lastname}"></p>
+            </div>
+            <div class="mb-4">
+                <label class="text-sm">Home Address:</label>
+                <p class="text-lg font-semibold" th:text="${User.address + ' 😔 ' + User.city}"></p>
+            </div>
+            <div class="text-xs text-justify mt-6">
+                <div class="text-xs text-justify mt-6">
+            </div>
+            <div class="text-red-600 text-center text-lg mt-8">
+                😔
+            </div>
+        </div>
+    </div>
+</body>
+</html>
