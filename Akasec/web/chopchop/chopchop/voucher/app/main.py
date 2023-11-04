@@ -5,7 +5,7 @@ import hashlib
 import secrets as s
 import os
 
-SECRET_KEY = os.getenv('SECRET_KEY') or b's3cr3t'
+SECRET_KEY =  b's3cr3t'
 
 app = Flask(__name__)
 sock = SocketIO(app, cors_allowed_origins="*")
